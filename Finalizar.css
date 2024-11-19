@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap');
+body{
+    margin: 0; /* Remove as margens padrão */
+    padding: 0;
+    background-color: white
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+/* Paleta de Cores*/
+
+:root{
+    --button-color:#B92A54;
+    --button-color-hover:#94304e;
+    --text-color:#000;
+    --rodape:#3F5D3F;
+    --cabecalho:#F69904;
+    --fundo:#F0F0F0;
+}
+
+/* Linha Amarela*/
+
+.barra-amarela {
+    width: 100%; 
+    height: 25px; 
+    background-color: var(--cabecalho); 
+    border-bottom: 5px solid var(--cabecalho); 
+}
+
+/*Menu*/
+
+.menu-navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;   
+}
+.menu-navegacao img{
+    width: 60px;
+    margin-left: 10px;
+}
+.links{
+    display: flex;
+    gap: 95px;    
+    row-gap: 60px;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+.icones{
+    display: flex;
+    gap: 30px;
+}
+
+/* Barra de Pesquisa*/
+
+.search{
+    display:flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color:#00000006 ;
+    width: 400px;
+    margin: 5px ;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #4b4b4b;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+#seachInput{
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    outline: none;
+}
+
+.Menu-Pesquisa label{
+    height: 20px;
+}
+
+/* Finalizar Compra*/
+
+h1{
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-left: 10%;   
+    margin-top:5px
+}
+
+/*Linha Rosa*/
+
+.titulo-linha {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 5px;
+}
+
+.titulo-linha h3 {
+    margin: 0;
+    font-size: 18px; 
+    font-weight: normal;
+    color: var(--text-color); 
+    margin-left: 10%; 
+    font-size: 1.8rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.linha-produto {
+    width: 41%; 
+    height: 7px; 
+    margin-left: 10%;
+    margin-top: 0.5rem;
+    background-color: var(--button-color); 
+}
+
+/* Flor 1*/
+
+.flor1 img{
+    margin-top: 3rem;
+    margin-left: -21.6%;
+    align-items: cente;
+    margin-bottom:4rem ;
+    border: 2px solid #4b4b4b;
+    border-radius: 20px;
+    width: 130px;
+    height: auto;
+    border-radius: 10px;
+   
+
+}
+.flor1 {
+    margin-top:1rem ;
+    display: flex;
+    gap: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+
+}
+
+/*Lado Flor 1 */
+
+.descricao-flor {
+    display: flex; /* Alinha nome e valor na mesma linha */ 
+    flex-wrap: wrap; /* Permite que o conteúdo da descrição quebre para a próxima linha */
+    margin-bottom: 5.4rem;
+    margin-top: 2rem;
+}
+
+.descricao-flor h3 {
+    margin-right:190px; /* Remove margem do título */
+    margin-bottom: -10px;
+}
+
+.estoque {
+    width: 100%; /* Garante que o estoque ocupe toda a linha */
+    margin-top: -10px; /* Adiciona um pequeno espaço entre o nome/valor e o estoque */
+}
+
+.numero {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.valor {
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 1rem;
+    font-size: 1.2em; /* Tamanho maior para o valor */
+}
+.quantidade{
+    display: flex;
+    margin-top: -20px;
+    gap: 10px;
+}
+.descricao-flor button{
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+}
+.descricao-flor span{
+    margin-top: 4px;
+}
+/* Flor2*/
+
+.flor2 img{
+   
+    margin-left: 9%;
+    margin-bottom:10rem ;
+    margin-right: 10px;
+    border: 2px solid #4b4b4b;
+    border-radius: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.flor2 {
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-bottom: -10%;
+}
+
+.descricao-flor2 {
+    display: flex; /* Alinha nome e valor na mesma linha */ 
+    flex-wrap: wrap; /* Permite que o conteúdo da descrição quebre para a próxima linha */
+    margin-bottom: 10rem;
+    margin-top: -59px;
+    margin-left: -10px;
+
+}
+
+.descricao-flor2 h3 {
+    margin-right:190px; /* Remove margem do título */
+}
+
+.estoque2 {
+    width: 100%; /* Garante que o estoque ocupe toda a linha */
+    margin-top: 5px; /* Adiciona um pequeno espaço entre o nome/valor e o estoque */
+}
+
+.numero2 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.valor2 {
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 1rem;
+    font-size: 1.2em; /* Tamanho maior para o valor */
+}
+.quantidade2{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+/* Resumo da compra*/
+
+.resumo-compra{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.meio{
+    display:flex;
+    flex-direction: row-reverse;
+} 
+.linha-verde{
+    width: 100%; 
+    height: 7.35rem; 
+    background-color: var(--rodape); 
+    margin-top: 5.32rem;
+    margin-bottom: 0;
+}
+
+/* Resumo da compra*/
+.resumo-compra h3{
+    margin-left: 3.6rem;
+    margin-bottom:2rem ;
+}
+
+.resumo-compra {
+    margin-right: 9rem;
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin-top: -4rem;
+}
+.subtotal{
+    display: flex;
+    flex-direction: row;
+    gap:8.6rem;
+}
+.envio{
+    display: flex;
+    flex-direction: row;
+    gap:10rem;
+}
+        /* Animação botão*/
+.cupom button{
+    background-color: var(--button-color);
+    color:white;
+    border: 1px solid var(--button-color);
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.cupom button:hover{
+    background-color:var(--button-color-hover);
+    border-color: var(--button-color);
+    color: white;
+}
+.cupom button:active {
+    transform: scale(0.95); /* Efeito de diminuição no clique */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra no clique */
+}
+.desconto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap:8rem;
+    margin-top: 2px;
+}
+.cupom{
+    margin-top: -10px
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    margin-top: -1rem;
+    gap:10rem;
+}
+.linha-compra{
+    width: 41%; 
+    height: 3px; 
+    margin-left: 15%;
+    margin-top: -1rem;
+    background-color: var(--button-color);
+}
+.linha-desconto{
+    width: 69%; 
+    height: 3px; 
+    margin-left: 1px;
+    margin-top: 1rem;
+    background-color: var(--rodape);
+}
+.botao-finalizar button{ 
+    background: linear-gradient(135deg, var(--button-color),var(--cabecalho)); /* Gradiente */
+    color: white; 
+    border: none; 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    font-weight: bold;
+    border-radius: 25px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    margin-left: 15%;
+    margin-top: 10px;
+}
+.botao-finalizar button:hover{
+    background: linear-gradient(135deg, var(--cabecalho),var(--button-color)); 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-3px); 
+}
